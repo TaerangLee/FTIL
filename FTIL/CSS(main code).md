@@ -18,7 +18,7 @@
 
     center >> 전체를 기준으로 중간으로 정렬로 만든다.
 
-    spcae-between >> 아이템들의 “사이(between)”에 균일한 간격을 만들어 준다.
+    spcae-between >> 아이템들의 “사이(between)”에 균일한 간격을 만들어 준다..
 
     space-evenly >> 아이템들의 "둘레"에 균일한 간격을 만든다.
 

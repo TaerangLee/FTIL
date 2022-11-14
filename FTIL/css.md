@@ -27,3 +27,8 @@
 
 + /* */
 
+
+### CSS justify와 align 차이
+
+![](https://media.discordapp.net/attachments/956190154454876183/1041682451891761163/image.png?width=391&height=326)
+
