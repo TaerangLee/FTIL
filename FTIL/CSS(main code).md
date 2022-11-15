@@ -22,7 +22,7 @@
 
     space-evenly >> 아이템들의 "둘레"에 균일한 간격을 만든다.
 
-
+관련 사이트 : https://developer.mozilla.org/ko/docs/Web/CSS/position
 
 + align-items: >>세로로 대부분 가운데 맞춤
 
@@ -48,4 +48,6 @@
 `( overflow가 hidden, scroll, auto또는 overlay)`이 나타나는 가장 가까운 조상에 달라붙으며, 
 사실 그 조상은 썰매 불가이며 실제로 소서 가능한 조상이 발생하는 경우 "끈끈한" 
 동작을 보이지 않는 점에 주의하는 것.
+
+관련 사이트 : https://studiomeal.com/archives/197
 
