@@ -12,3 +12,5 @@
     spcae-between >> 아이템들의 “사이(between)”에 균일한 간격을 만들어 준다..
 
     space-evenly >> 아이템들의 "둘레"에 균일한 간격을 만든다.
+
+![](https://media.discordapp.net/attachments/956190154454876183/1046066361408950282/image.png?width=431&height=325)
