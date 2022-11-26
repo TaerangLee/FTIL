@@ -15,5 +15,6 @@ justify-content와 수직 방향의 정렬이라고 생각하면 편하다.
 
     baseline : 아이템들을 텍스트 베이스라인 기준으로 정렬한다.
 
-    
+
+![](https://media.discordapp.net/attachments/956190154454876183/1046066933050646558/image.png?width=705&height=320)
 
