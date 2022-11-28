@@ -20,3 +20,4 @@
 동작을 보이지 않는 점에 주의하는 것.
 
 관련 사이트 : https://studiomeal.com/archives/197
+관련 사이트 : https://developer.mozilla.org/ko/docs/Web/CSS/position
