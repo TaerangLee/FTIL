@@ -31,11 +31,20 @@
 
     - <a>,<img><form>태그에만 적용 가능
     - 역할 : 태그의 의미 식별(X) > 서버 전송용 사용(O), 내부 스크립트 사용(O)
-    -HTML에서 사용
-     - CSS, Javascript 에서 사용을 안함(일부 사용 가능)
+    - HTML에서 사용
+    - CSS, Javascript 에서 사용을 안함(일부 사용 가능)
 
 
 ### 스타일 적용 우선 순위와 속성 강제 적용 !important!
 
-+ 인라인 스
+1. 인라인 스타일(inline style) >> 내부 스타일(internal style) >> 외부 스타일(external style) >> 브라우저 기본값 순
+
+2. 두 가지 똑같은 등급일 때, 가장 마지막으로 적용한 것이 가장 우선
+
+3. 특정도(specify) 값을 계산하여서, 가장 많은 점수를 받은 것에 우선 순위를 부여한다.
+
+![](https://media.discordapp.net/attachments/956190154454876183/1047067206711791626/image.png)
+
+
+### 속성 강제 적용 !important 선언
 
