@@ -13,6 +13,21 @@
                 (transition: all 0.2s linear) 을 사용하고 0.2s 0.2초 동안 실행된다.
                 transition-duration; 도 같이 사용할 수 있다.
 
+#
+    사진을 0.2초 동안 크기를 1.2로 늘리는 법
+  <br><br>
+  
+```css
+.IM_ALL{
+    transition: all 0.2s linear;
+   
+}
+
+.IM_ALL:hover{
+    transform: scale(1.2);
+}
+```
+
 
 ## a tag의 모든 것
 
