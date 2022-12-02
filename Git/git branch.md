@@ -26,6 +26,8 @@
 
     git checkout taerang
 
-ㅎ
+<br>
+
+관련 사이트 : https://mylko72.gitbooks.io/git/content/branch/checkout.html
 
 
