@@ -10,5 +10,5 @@ function A(spell){
     console.log("Hello"+spell); // A라는 함수 안에서 Hello를 출력을 한다.
 }
 
-A(a); // A라는 함수 variable에 spell a를 대입해줌.
+A(a); // A라는 함수 variable에 spell a를 대입해줌.      
 ```
