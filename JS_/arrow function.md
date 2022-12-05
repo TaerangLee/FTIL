@@ -22,7 +22,38 @@ const plus = (a, b) =>{
 alert(plus(3,4)); //alert로 알림을 울림.
 
 ```
+<br>
 
++ 인수가 하나밖에 없다면 인수를 감싸는 괄호를 생략할 수 있다. (코드 길이 줄이기)
+
+```js
+const double = n => n * 2;
+
+alert(double(3));
+```
+
+<br>
+
++ 인수가 하나도 없을 때 괄호를 비워둔다. 하지만 괄호를 무조건 쓴다.
+
+```js
+const sayHello = () => alert("Hello!");
+
+sayHello();
+```
+<br>
+
++ 아래와 같이 함수를 동적으로 만들 수도 있다.
+
+```js
+const age = prompt("나이를 알려주세요.", 18);
+
+const welcome = (age < 18) ?
+  () => alert('안녕') :
+  () => alert("안녕하세요!");
+
+welcome();
+```
 
 
 
