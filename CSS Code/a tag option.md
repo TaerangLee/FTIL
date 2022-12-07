@@ -15,8 +15,8 @@
 
 #
     사진을 0.2초 동안 크기를 1.2로 늘리는 법
-  <br><br>
-  
+  <br>
+
 ```css
 .IM_ALL{
     transition: all 0.2s linear;
