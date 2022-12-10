@@ -1,7 +1,7 @@
 # JS addEventListener
 
 
-#### handleTitleClick이라는 함수를 생성하고 event 중 click을 addEventListener을 <br>통해서 사용한다
+### handleTitleClick이라는 함수를 생성하고 event 중 click을 addEventListener을 <br>통해서 사용한다
 
 ```js
 function handleTitleClick(){
@@ -24,4 +24,15 @@ function handleMouseEnter(){
     console.log("mouse is here!");
 }
 title.addEventListener("mouseenter", handleMouseEnter); //마우스가 조건 위에 올려져 있으면 실행.
+```
+<br>
+
+### handleMouseleave라는함수를 생성하고 event 중 마우스가 조건에 벗어나면 addEventListener을 <br>통해서 사용한다.
+
+```js
+function handleMouseLeave(){
+    console.log("mouse is out");
+}
+
+title.addEventListener("mouseleave", handleMouseLeave);
 ```
