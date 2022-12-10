@@ -36,3 +36,17 @@ function handleMouseLeave(){
 
 title.addEventListener("mouseleave", handleMouseLeave);
 ```
+<br>
+
+### handleWindowResize라는함수를 생성하고 event 중 윈도운 창의 재 정의 하면 addEventListener을 <br>통해서 사용한다.
+
+```js
+function handleWindowResize(){
+    console.log("window resize.");
+    document.body.style.backgroundColor = "white"; //html 문서의 body의 바탕 색깔을 흰색으로 변경.
+}
+
+window.addEventListener("resize", handleWindowResize);
+```
+
+<br>
