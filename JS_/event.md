@@ -1,4 +1,4 @@
-## click event 
+# JS addEventListener
 
 
 #### handleTitleClick이라는 함수를 생성하고 event 중 click을 addEventListener을 <br>통해서 사용한다
@@ -13,4 +13,15 @@ title.addEventListener("click", handleTitleClick); //click을 했을 때 함수 
 
 //ex)const title = document.querySelector(".hello");
 // title은 html 문서 안에서 querySelector hello라는 class or div에서 사용
+```
+<br>
+
+
+### handleMouseEnter라는함수를 생성하고 event 중 마우스를 올려다 대면 addEventListener을 <br>통해서 사용한다.
+
+```js
+function handleMouseEnter(){
+    console.log("mouse is here!");
+}
+title.addEventListener("mouseenter", handleMouseEnter); //마우스가 조건 위에 올려져 있으면 실행.
 ```
