@@ -1,7 +1,7 @@
 # JS addEventListener
 
 
-### handleTitleClick이라는 함수를 생성하고 event 중 click을 addEventListener을 <br>통해서 사용한다
+### handleTitleClick이라는 함수를 생성하고 event 중 click을 addEventListener을 <br>통해서 함수가 실행이 된다.
 
 ```js
 function handleTitleClick(){
@@ -17,7 +17,7 @@ title.addEventListener("click", handleTitleClick); //click을 했을 때 함수 
 <br>
 
 
-### handleMouseEnter라는함수를 생성하고 event 중 마우스를 올려다 대면 addEventListener을 <br>통해서 사용한다.
+### handleMouseEnter라는 함수를 생성하고 event 중 마우스를 올려다 대면 addEventListener을 <br>통해서 함수가 실행이 된다.
 
 ```js
 function handleMouseEnter(){
@@ -27,7 +27,7 @@ title.addEventListener("mouseenter", handleMouseEnter); //마우스가 조건 �
 ```
 <br>
 
-### handleMouseleave라는함수를 생성하고 event 중 마우스가 조건에 벗어나면 addEventListener을 <br>통해서 사용한다.
+### handleMouseleave라는 함수를 생성하고 event 중 마우스가 조건에 벗어나면 addEventListener을 <br>통해서 함수가 실행이 된다.
 
 ```js
 function handleMouseLeave(){
@@ -38,7 +38,7 @@ title.addEventListener("mouseleave", handleMouseLeave);
 ```
 <br>
 
-### handleWindowResize라는함수를 생성하고 event 중 윈도운 창의 재 정의 하면 addEventListener을 <br>통해서 사용한다.
+### handleWindowResize라는 함수를 생성하고 event 중 윈도운 창의 재정의 하면 addEventListener을 <br>통해서 함수가 실행이 된다.
 
 ```js
 function handleWindowResize(){
@@ -50,3 +50,18 @@ window.addEventListener("resize", handleWindowResize);
 ```
 
 <br>
+
+### handleWindowCopy/Paste라는 함수를 생성하고 event 중 윈도운 ctrl + c / ctrl +v addEventListener을 <br>통해서 실행이 된다.
+
+
+```js
+function handleWindowCopy(){
+    alert("No Copy!");
+}
+function handleWindowpaste(){
+    alert("No Paste!");
+}
+
+window.addEventListener("copy", handleWindowCopy); //ctrl + c 또는 command + c를 누르면 함수가 실행이 된다
+window.addEventListener("paste", handleWindowpaste); //ctrl + v 또는 command + v를 누르면 함수가 실행이 된다.
+```
