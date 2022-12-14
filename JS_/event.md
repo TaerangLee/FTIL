@@ -7,7 +7,7 @@
 function handleTitleClick(){
     console.log("title was cliked!");
 }
-
+x`
 title.addEventListener("click", handleTitleClick); //click을 했을 때 함수 실행 
 (여기서 title은 위에서 한번 지정함)
 
