@@ -25,13 +25,13 @@ setTimeout(add, 2000, 3, 4);
 
 
 
-### `setinterval`은 어떤 코드를 일정한 시간 간격을 두고 반복해서<br>실행하고 싶을 때 사용한다.
+### `setInterval`은 어떤 코드를 일정한 시간 간격을 두고 반복해서<br>실행하고 싶을 때 사용한다.
 
 ```js
 setInterval(() => console.log(new Date()), 2000);
 ```
 
-
+##### 관련 정보!! : https://www.daleseo.com/js-timer/
 
 
 
