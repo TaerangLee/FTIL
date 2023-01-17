@@ -11,7 +11,7 @@ let tween = gsap.to(".box1", { //박스 하나를 먼저 생성
     paused: true, //움직임을 고정시킴
 });
 
-document.querySelector("#play").onclick = function() 
+document.querySelector("#play").onclick = function()    
 { return tween.play(); } //실행
 document.querySelector("#pause").onclick = function() 
 { return tween.pause(); } //정지
