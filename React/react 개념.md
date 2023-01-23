@@ -25,6 +25,24 @@
 
 
 
-### `React`를 사용하는 이유
+### JSX
 
+ + #### 리액트 Fragment : <></>, 브라우저 상에 실제 엘리먼트로 나타나지 않음. <br>리액트 컴포넌트는 반드시 하나의 태그로 감싸져 있어야 하는데, 단순히 감싸기 위한 목적으로 <br>불필요한 div를 사용하는 대신 Fragment를 사용할 수 있다.
 
++ #### 인라인 스타일은 객체 형태로 작성해야 하며, 스타일 속성 이름은 <br>카멜케이스(background-color -> backgroundColor)로 작성해야 한다.
+
+```js
+const style = {
+    backgroundColor: 'black',
+    fontSize: 24
+  }
+
+ <div style={style}>{name}</div> 
+ ```
+
+ + #### css class는 `className`으로 작성함.
+ 
+
+ + #### JSX 내부 주석은  `{/* 이 안에 */}` 작성. (중괄호로 감싸야 함)
+ 
+ + #### 태그 안에서는 `//`주석 사용이 가능하다. (`<Hello //주석/>`)
