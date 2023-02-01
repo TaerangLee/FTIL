@@ -21,3 +21,14 @@ const element = <h1>Hello, world!</h1>;
 const name = 'Josh Perez';
 const element = <h1>Hello, {name}</h1>;
 ```
+
+
+### React.Js 연결 script
+
+```html
+<script src="https://unpkg.com/react@17.0.2/umd/react.production.min.js"></script>
+<script src="https://unpkg.com/react-dom@17.0.2/umd/react-dom.production.min.js"></script>
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script> 
+```
+
++ ####  babel이란? JS 컴파일러 즉 JS로 결과물을 만들어주는 컴파일러.<br>
