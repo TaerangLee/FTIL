@@ -1,7 +1,7 @@
 ## a tag 내에서 자주 사용하는 코드 
 
 
-    background-color : 지정한 것을 기준으로 바탕 색깔을 지정해준다.
+    background-color : 지정한 것을 기준으로 바탕 색깔을 지정한다.
     
     color :  지정한 것을 기준으로 그 색깔을 바꿔준다.
 
@@ -24,7 +24,7 @@
 }
 
 .IM_ALL:hover{
-    transform: scale(1.2);
+    transform: scale(1.3);
 }
 ```
 
