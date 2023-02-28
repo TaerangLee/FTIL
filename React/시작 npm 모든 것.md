@@ -3,6 +3,7 @@
 
 #### 리액트 파일
 
+    npm install -g create-react-app
     npm create-react-app 파일명
 
 #### 리액트 스타일 컴포넌트
