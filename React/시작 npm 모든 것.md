@@ -31,3 +31,12 @@
 #### 리액트 SCSS 
 
     npm install node-sass --save
+
+#### 리액트 emotion
+
+     npm i @emotion/react
+
+     <파일 import>
+     import { css } from "@emotion/react";
+    /** @jsxImportSource @emotion/react */
+
