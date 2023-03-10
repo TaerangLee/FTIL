@@ -28,6 +28,6 @@
 
 <br>
 
-관련 사이트 : https://mylko72.gitbooks.io/git/content/branch/checkout.html
+[더 자세한 정보](https://mylko72.gitbooks.io/git/content/branch/checkout.html)
 
 

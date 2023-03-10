@@ -40,3 +40,21 @@
      import { css } from "@emotion/react";
     /** @jsxImportSource @emotion/react */
 
+#### 리액트 반응형
+
+
+    npm install react-responsive
+
+    <파일 import>
+    import {useMediaQuery} from 'react-responsive';
+
+[반응형 더 알기](https://velog.io/@hyerin0930/React-%EB%B0%98%EC%9D%91%ED%98%95-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0-with-react-responsive)
+
+
+#### 리액트 Axios
+
+    npm install axios
+
+    <파일 import>
+    import axios from 'axios';
+
