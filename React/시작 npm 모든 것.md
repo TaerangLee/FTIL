@@ -16,7 +16,8 @@
 
     <파일 import>
     import React, { Component } from 'react';
-    import { BrowserRouter, Routes, Route } from 'react-router-dom';
+    import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+    import { BrowserRouter, Route, Router, Routes } from "react-router-dom";
 
 #### 리액트 폰트어썸 
 
