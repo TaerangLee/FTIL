@@ -12,10 +12,8 @@ int main(void){
 
   int num1 = 100;
   num1 = num1 + 10 > 110 ? 10 : 20;
-
   printf("%d", num1); //20
 
-  
 
   
 }
