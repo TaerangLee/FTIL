@@ -62,3 +62,6 @@
           </div>
         </div>
     );
+```
+
+[input type="file" 커스터마이징 하는 방법](https://helloinyong.tistory.com/275)
