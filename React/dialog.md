@@ -66,7 +66,7 @@ function Dialog() {
 export default Dialog;
 ```
 
-- #### index.jsx(ChooseButton)
+- #### index.jsx(ChooseButton) 클릭하면 background 색 변경
 
 ```js
 /** @jsxImportSource @emotion/react */ //emotion 사용
