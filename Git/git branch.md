@@ -10,13 +10,14 @@
 
 ### branch 삭제
 
-`git branch -D (브랜치명)`
+`git branch -D (브랜치명)` (로컬)
+
+`git push origin --delete 원격브랜치명` (원격)
 
 ##### 로컬 브랜치를 삭제하려면 아래 명령어를 사용한다.
 
     $ git branch -D (utility)
     Deleted branch utility (was e7f33f9).
-
 
 ### branch 이동
 
@@ -30,4 +31,4 @@
 
 [더 자세한 정보](https://mylko72.gitbooks.io/git/content/branch/checkout.html)
 
-
+### branch reset
