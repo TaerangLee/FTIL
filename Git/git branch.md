@@ -32,3 +32,5 @@
 [더 자세한 정보](https://mylko72.gitbooks.io/git/content/branch/checkout.html)
 
 ### branch reset
+
+    git reset --hard <커밋 코드>

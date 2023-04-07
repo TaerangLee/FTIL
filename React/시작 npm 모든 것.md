@@ -37,7 +37,8 @@
      npm i @emotion/react
 
      <파일 import>
-     import { css } from "@emotion/react";
+     import { css, jsx  } from "@emotion/react";
+     import styled from "@emotion/styled";
     /** @jsxImportSource @emotion/react */
 
 #### 리액트 반응형
