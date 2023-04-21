@@ -1,7 +1,7 @@
-## Git Clone Problems
+### Git Clone Problems
 
     1. cd .. 이용하여서 C로컬 디스크로 이동.
-    
+
     2. git clone (주소)
 
     3. cd (레파 이름 한 글자 치고 Tab)
