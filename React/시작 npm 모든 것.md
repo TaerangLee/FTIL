@@ -4,6 +4,7 @@
 
     npm install -g create-react-app
     npm create-react-app 파일명
+    npx(m) create-react-app 파일명 --template typescript
 
 #### 리액트 스타일 컴포넌트
 
