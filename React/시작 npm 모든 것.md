@@ -57,3 +57,32 @@
 
     <파일 import>
     import axios from 'axios';
+
+#### 타입스크립트 환경준비
+
+    // npm을 사용하는 경우
+    npx(m) create-react-app my-app --template typescript
+
+
+    타입스크립트 프로젝트 생성, 설정
+
+    $ mkdir ts-practice
+    $ cd ts-practice
+    $ yarn init -y # 또는 npm init -y
+
+##### 타입스크립트 설정파일 생성
+
+```json
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true
+  }
+}
+
+npm install -g typescript //타입스크립트 명령어 설치
+
+$ tsc --init // tsconfig.js 파일 자동생성
+```
