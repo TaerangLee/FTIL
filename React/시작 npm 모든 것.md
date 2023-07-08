@@ -73,6 +73,7 @@
 ##### 타입스크립트 설정파일 생성
 
     npm i -D styled-components@5.3.10 @types/styled-components
+    https://github.com/styled-components/styled-components/issues/3998
 
 ```json
 {
