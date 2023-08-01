@@ -6,6 +6,10 @@
     npm create-react-app 파일명
     npx(m) create-react-app 파일명 --template typescript
 
+#### NextJs 다운
+
+    npx create-next-app [프로젝트명]
+
 #### 리액트 스타일 컴포넌트
 
     npm i styled-components
