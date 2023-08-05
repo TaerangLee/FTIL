@@ -84,7 +84,7 @@
   "compilerOptions": {
     "target": "es5",
     "module": "commonjs",
-    "strict": true,
+    "strict≤/": true,
     "esModuleInterop": true
   }
 }
@@ -93,3 +93,8 @@ npm install -g typescript //타입스크립트 명령어 설치
 
 $ tsc --init // tsconfig.js 파일 자동생성
 ```
+
+##### 상태관리 라이브러리 install
+
+    react-query : npm install @tanstack/react-query
+    react-query-devtools : npm install @tanstack/react-query-devtools
